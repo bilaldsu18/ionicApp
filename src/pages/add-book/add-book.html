@@ -1,0 +1,51 @@
+<!--
+  Generated template for the AddBookPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>addBook</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <!--
+
+  
+<ion-item>
+    <ion-label color="primary">Book name</ion-label>
+    <ion-input placeholder="Text Input"></ion-input>
+  </ion-item>
+
+<ion-item>
+    <ion-label color="primary">Book title</ion-label>
+    <ion-input placeholder="Text Input"></ion-input>
+  </ion-item>
+<br>
+<div class="fileUpload btn btn-primary">
+    <span>Upload book</span>
+    <input type="file" class="upload" />
+</div>
+<br>  
+<div class="fileUpload btn btn-primary">
+    <span>Upload audio</span>
+    <input type="file" class="upload" />
+</div>
+-->
+ <form [formGroup]="myForm">
+    <ion-input formControlName="firstName" type="text"></ion-input>
+    <ion-input formControlName="lastName" type="text"></ion-input>
+    <ion-input formControlName="age" type="number"></ion-input>
+</form>
+
+
+
+
+
+
+</ion-content>
